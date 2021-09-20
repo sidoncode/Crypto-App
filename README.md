@@ -52,4 +52,7 @@ MVVM provides a clear separation of concern and has great support in Android SDK
 If you like my work, feel free to support it!
 
 Gpay me - Siddharth54330@okaxis
+
+</br>
+
 PayPal - https://www.paypal.me/SSiddharthSharma
