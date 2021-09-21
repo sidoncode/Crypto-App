@@ -24,6 +24,6 @@ fun String?.formattedDate(dateFormat: DateFormat = DateFormat.yyyy_MM_dd): Date?
 fun Double?.dollarString(): String {
     return this?.let {
         val numberFormat = DecimalFormat("#,##0.00")
-        "US$ ${numberFormat.format(this)}"
+        "INR₹ ${numberFormat.format(this)}"
     } ?: ""
 }

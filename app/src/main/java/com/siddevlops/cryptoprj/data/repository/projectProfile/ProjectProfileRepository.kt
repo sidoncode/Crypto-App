@@ -9,6 +9,6 @@ class ProjectProfileRepository @Inject constructor(
 
     fun projectBySymbol(symbol: String) = localDataSource.projectBySymbol(symbol)
 
-    suspend fun historicalPrice(symbol: String, targetCur: String = "usd") =
+    suspend fun historicalPrice(symbol: String, targetCur: String = "INR") =
         remoteDataSource.historicalPrice(symbol, targetCur)
 }

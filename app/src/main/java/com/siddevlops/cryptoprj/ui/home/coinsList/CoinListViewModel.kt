@@ -25,7 +25,7 @@ class CoinListViewModel @ViewModelInject constructor(private val repository: Coi
         return coinsListData.value?.isEmpty() ?: true
     }
 
-    fun loadCoinsFromApi(targetCur: String = "usd") {
+    fun loadCoinsFromApi(targetCur: String = "INR") {
         if (repository.loadData()) {
             viewModelScope.launch(Dispatchers.IO) {
                 _isLoading.postValue(true)

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">CryptoTicker</string>
+    <string name="app_name">Info Crypto</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
@@ -15,4 +15,15 @@
 
     <string name="historical_data_error">Couldn\'t fetch historical data. Please try again</string>
     <string name="line_chart_title">Price Chart for %1$s days\n(x-axis: Date, y-axis: Price in $)</string>
+
+
+
+    <!-- -->
+
+    <string name="APP_ID">ca-app-pub-3940256099942544~3347511713</string> <!-- done -->
+    <string name="INT_AD">ca-app-pub-3940256099942544/1033173712</string> <!-- done -->
+    <string name="BANNER_AD">ca-app-pub-3940256099942544/6300978111</string> <!-- done -->
+    <string name="NATIVE_AD">ca-app-pub-3940256099942544/2247696110</string> <!-- done -->
+
+
 </resources>
